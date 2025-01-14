@@ -1,0 +1,14 @@
+# Terraform files to ignore
+*.tfstate
+*.tfstate.*
+crash.log
+.terraform/
+.terraform.lock.hcl
+terraform.tfvars
+terraform.tfvars.json
+
+# AWS credentials
+.aws/
+
+# IDE-specific files
+.vscode/
