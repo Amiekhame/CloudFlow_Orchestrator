@@ -2,7 +2,7 @@ provider "aws" {
     region = "us-east-1" 
 }
 
-# 1. Create an S3 Bucket for the Static Website
+# 1. Created an S3 Bucket for the Static Website
 resource "aws_s3_bucket" "website_bucket" {
     bucket = "osho-resume-2" 
     force_destroy = true   
