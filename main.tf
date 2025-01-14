@@ -1,11 +1,11 @@
 provider "aws" {
-    region = "us-east-1" # Update with your desired AWS region
+    region = "us-east-1" 
 }
 
 # 1. Create an S3 Bucket for the Static Website
 resource "aws_s3_bucket" "website_bucket" {
-    bucket = "osho-resume-2" # Replace with your unique bucket name
-    force_destroy = true   # Allow Terraform to delete the bucket even if it's not empty
+    bucket = "osho-resume-2" 
+    force_destroy = true   
 
     tags = {
         Name = "StaticWebsiteBucket"
